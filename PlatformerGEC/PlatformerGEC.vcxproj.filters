@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\World Model">
+      <UniqueIdentifier>{48a5d58e-323b-4188-99a3-4489d1d7e012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{eb725f5a-5459-4365-a35b-17261799a93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{1d4acc9c-2e83-4bcf-9ee2-0d2f9645d63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World Model">
+      <UniqueIdentifier>{0be00291-2465-4987-9c8b-6175bdd73ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World Model\Entities">
+      <UniqueIdentifier>{8fc21ee2-e64c-48ee-a846-980941cf4292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World Model\Entities">
+      <UniqueIdentifier>{37d9f039-b1d4-41cd-86a0-a52e03c3b432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pugixml">
+      <UniqueIdentifier>{938c4ca9-14d7-45e5-9a1c-cec8feacf618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pugixml">
+      <UniqueIdentifier>{cd5bc29c-119c-44a7-afd1-387a3384b2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World Model\Scenes">
+      <UniqueIdentifier>{b22dc55d-8069-4d19-a4af-00509cac7785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World Model\Scenes">
+      <UniqueIdentifier>{1ff2b8e7-2166-45be-afa3-dd41cb4512af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Time">
+      <UniqueIdentifier>{4097a296-b4c0-46e4-b47e-42c5f700b114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{4275ea1a-618d-4aad-af57-c098254eaf22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\World Model</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\World Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\World Model</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml\pugixml.cpp">
+      <Filter>Source Files\pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapEntity.cpp">
+      <Filter>Source Files\World Model\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelOneScene.cpp">
+      <Filter>Source Files\World Model\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterEntity.cpp">
+      <Filter>Source Files\World Model\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Source Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCharacterEntity.cpp">
+      <Filter>Source Files\World Model\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\World Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\World Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\World Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugixml.hpp">
+      <Filter>Header Files\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugiconfig.hpp">
+      <Filter>Header Files\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapEntity.h">
+      <Filter>Header Files\World Model\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelOneScene.h">
+      <Filter>Header Files\World Model\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterEntity.h">
+      <Filter>Header Files\World Model\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCharacterEntity.h">
+      <Filter>Header Files\World Model\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
